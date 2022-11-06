@@ -1,0 +1,23 @@
+body{
+	background-color: black;
+	margin:0;
+}
+main{
+	--color-tm: rgb(0, 110, 255);
+	width: 1500px;
+	margin-inline:auto;
+}
+.array-display{
+	margin: 25vh 0;
+	width: 100%;
+	height: 50vh;
+	display:flex;
+
+	align-items: baseline;
+	justify-content: space-between;
+}
+
+.array-element-display{
+	background-color: var(--color-tm);
+	border-radius: 1em;
+}
